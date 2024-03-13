@@ -55,5 +55,10 @@ public class NFe {
         this.infNFe = infNFe;
     }
 
-// Adicionar outros getters e setters conforme necessário
+    @Override
+    public String toString() {
+        return "NFe [chaveAcesso=" + chaveAcesso + ", numero=" + numero + ", dataEmissao=" + dataEmissao + ", infNFe="
+                + infNFe + "]";
+    }
+
 }

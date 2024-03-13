@@ -176,4 +176,14 @@ public class Ide {
     public void setIndPres(String indPres) {
         this.indPres = indPres;
     }
+
+    @Override
+    public String toString() {
+        return "Ide [cUF=" + cUF + ", cNF=" + cNF + ", natOp=" + natOp + ", indPag=" + indPag + ", mod=" + mod
+                + ", serie=" + serie + ", nNF=" + nNF + ", dhEmi=" + dhEmi + ", dhSaiEnt=" + dhSaiEnt + ", tpNF=" + tpNF
+                + ", idDest=" + idDest + ", cMunFG=" + cMunFG + ", tpImp=" + tpImp + ", tpEmis=" + tpEmis + ", cDV="
+                + cDV + ", tpAmb=" + tpAmb + ", finNFe=" + finNFe + ", indFinal=" + indFinal + ", indPres=" + indPres
+                + "]";
+    }
+    
 }
