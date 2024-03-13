@@ -3,7 +3,7 @@ package com.edson.model;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 
 @XStreamAlias("prod")
-public class Produto {
+public class Prod {
 
   private String cProd;
   private String cEAN;

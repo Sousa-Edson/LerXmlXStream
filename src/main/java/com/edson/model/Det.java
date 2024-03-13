@@ -5,7 +5,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 @XStreamAlias("det")
 public class Det {
     private String nItem;
-    private Produto prod;
+    // private Prod prod;
     // private Imposto imposto;
 
     public String getnItem() {
@@ -16,16 +16,16 @@ public class Det {
         this.nItem = nItem;
     }
 
-    public Produto getProd() {
-        return prod;
-    }
+    // public Prod getProd() {
+    //     return prod;
+    // }
 
-    public void setProd(Produto prod) {
-        this.prod = prod;
-    }
+    // public void setProd(Prod prod) {
+    //     this.prod = prod;
+    // }
 
-    public Det() {
-    }
+    // public Det() {
+    // }
     // public Imposto getImposto() {
     //     return imposto;
     // }
