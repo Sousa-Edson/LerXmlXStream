@@ -1,6 +1,8 @@
 package com.edson.model;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+import java.util.ArrayList;
 import java.util.List;
 
 @XStreamAlias("infNFe")
@@ -35,10 +37,15 @@ public class InfNFe {
     this.dest = dest;
   }
 
-  public List<Det> getDetList() {
-    return detList;
+//  public List<Det> getDetList() {
+//    return detList;
+//  }
+public List<Det> getDetList() {
+  if (detList == null) {
+    detList = new ArrayList<>();
   }
-
+  return detList;
+}
   public void setDetList(List<Det> detList) {
     this.detList = detList;
   }
